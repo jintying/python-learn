@@ -1,0 +1,23 @@
+{
+    // ===== 用哪个 Python =====
+    // 指向 python-learn\.venv 里的 Python。
+    // 配好之后，Ctrl+F5 就会用这个虚拟环境跑（里面有 pytest 等已装好的库）。
+    "python.defaultInterpreterPath": "D:\\Desktop\\python-learn\\.venv\\Scripts\\python.exe",
+
+    // 打开终端时自动激活虚拟环境（这样终端里直接敲 python 就是对的）
+    "python.terminal.activateEnvironment": true,
+
+    // ===== 自动保存 =====
+    // 改完代码不用手动 Ctrl+S，停手 0.8 秒就自动存。
+    // 这样按 Ctrl+F5 跑的一定是最新代码，不会出现"我明明改了怎么没变"。
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 800,
+
+    // ===== 原来的设置（保留） =====
+    "chat.tools.terminal.autoApprove": {
+        "/^\\.\\\\\\.venv\\\\Scripts\\\\python\\.exe \\.\\\\log_analyzer\\.py \\.\\\\sample_logs error warn fail$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

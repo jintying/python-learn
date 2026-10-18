@@ -1,0 +1,8 @@
+2026-09-24 10:20:10.100 [INFO] sensor_lidar: pointcloud received, points=70120
+2026-09-24 10:20:10.150 [WARN] occupancy_net: edge blur at frame 2210, obstacle=cone
+2026-09-24 10:20:10.200 [INFO] planning: lane change executed
+2026-09-24 10:20:10.300 [ERROR] vfm_perception: static obstacle missed, type=water_barrier
+2026-09-24 10:20:11.000 [INFO] map_update: NOCD activated, city=changsha
+2026-09-24 10:20:11.100 [WARN] lidar_echo: weak return, angle=32deg
+2026-09-24 10:20:11.200 [FAIL] safety_check: takeover required, driver_ready=false
+2026-09-24 10:20:12.000 [INFO] sensor_front_camera: image received, timestamp=799001

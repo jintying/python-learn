@@ -1,0 +1,10 @@
+2026-09-24 11:00:00.001 [INFO] boot: system startup completed, version=vfm_2.3.1
+2026-09-24 11:00:01.002 [INFO] sensor_front_camera: image received
+2026-09-24 11:00:01.500 [WARN] gps_signal: weak signal, satellites=5
+2026-09-24 11:00:02.000 [ERROR] map_load: high-def map chunk failed, chunk_id=8891
+2026-09-24 11:00:02.200 [WARN] map_load: retry and recovered
+2026-09-24 11:00:03.000 [INFO] planning: route ready, target=beijing
+2026-09-24 11:00:03.100 [ERROR] lidar_calib: extrinsic drift detected, yaw=0.3deg
+2026-09-24 11:00:04.000 [INFO] soc_status: cpu=38%, mem=58%, temp=55C
+2026-09-24 11:00:04.500 [FAIL] safety_check: brake_test passed
+2026-09-24 11:00:05.000 [INFO] demo_route: start recording route A

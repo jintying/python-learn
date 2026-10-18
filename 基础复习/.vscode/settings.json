@@ -1,0 +1,10 @@
+{
+    // 如果你在 VS Code 里直接打开「基础复习」这个文件夹，
+    // 这份设置会生效（虚拟环境在上一层的 python-learn 里）。
+    "python.defaultInterpreterPath": "D:\\Desktop\\python-learn\\.venv\\Scripts\\python.exe",
+    "python.terminal.activateEnvironment": true,
+
+    // 自动保存：改完直接 Ctrl+F5，跑的一定是最新代码
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 800
+}
